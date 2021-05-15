@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Amidst The Darkness Be The Flame">
+        <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+		<script type="text/javascript" src="particles.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>SEMAPHORE</title>
+        <style>
+		#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+		
+		
+		.img-circle {
+    border-radius: 50%;
+}</style>
+<script>  
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+        
+        <link rel="manifest" href="/resources/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+    <body>
+        <header id="particles-js">
+
+	
+		<nav style="position: absolute;width:100vw; ">
+                <div class="row">
+                    <img src="resources/logo/nitte.png" style="margin-left: -3%;margin-top: 1%" alt="Omnifood logo" class="logo">
+                   <!-- <img src="resources/logo/nitte.png" alt="Omnifood logo" class="logo-black">-->
+                    <ul class="main-nav js--main-nav" style="background-color: rgba(0,0,0,0.7);float: right;padding: 10px 10px 10px 10px;">
+                        <li><a href="#events" class="animated swing">EVENTS</a></li>                      
+                        <li><a href="#rule" class="animated swing">Rules</a></li>
+                        <li><a href="#Shedule" class="animated swing">Schedule</a></li>
+						            <li><a href="#plans" class="animated swing">OUR TEAM</a></li>
+                        <li><a href="#mmap" class="animated swing">MAP</a></li>                       
+            						<li><a href="#Registration" class="animated swing">REGISTRATION</a></li>                     
+						
+                    </ul>
+                  <a class="mobile-nav-icon js--nav-icon" style="margin-right: 0%;"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+		
+		<script type="text/javascript">
+	particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 135,
+      "density": {
+        "enable": true,
+        "value_area": 600
+      }
+    },
+    "color": {
+      "value": "#00FF00"
+    },
+    "shape": {
+      "type": "star",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 12
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.42490419612936353,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 25.1194221302933,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 176.3753266952075,
+      "color": "#ada5a5",
+      "opacity": 1,
+      "width": 2.0844356791251797
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+            
+            <div class="hero-text-box">
+			
+			<!--<center>  <h1 class="animated jackInTheBox" style="font-weight: bold; background: -webkit-linear-gradient(top,#5dbba9, #232121);background: linear-gradient(top, #878787, #000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">SEMAPHORE 2K18</h1> </center>-->
+               <!-- <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
+                <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>-->
+            </div>
+            <style type="text/css">
+              @keyframes flame{
+                0% {
+                  color: red;
+                }
+                50% {
+                  color: green;
+                }
+                100% {
+                  color: red;
+                }
+              }
+            </style>
+        </header>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+       
+        
+       
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <section class="section-features js--section-features" id="rule">
+            <div class="row">
+                <h2><b>amidst the</b> darkness <b>be the <font class="animation-name:flame;"> flame</font></b></h2>
+                <p class="long-copy">
+                     <center>Semaphore is all about exploring yourself with creativity, talent, experience with all fun entertaining brain storm events. Set yourself and get ready for the battle.</center>
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-4-of-4 box" >
+                    <i class="ion-ios-infinite-outline icon-big" align="center"></i>
+                    <h3 align="center">General Rules</h3>
+                    <div style="padding-left: 7vw;">
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>REGISTRATION FEE RS 1000/- PER TEAM.                       
+                    </p>
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>MAXIMUM PARTICIPANTS PER TEAM 10.                       
+                    </p>
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>PARTICIPATING TEAMS HAVE TO REPORT AT THE RECEPTION DESK BY 9.00 AM.                   
+                    </p>
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>COLLEGE ID AND PERMISSION LETTER FROM COLLEGE IS MANDATORY.                   
+                    </p>
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>ACCOMODATION FACILITIES WILL BE ARRANGED ONLY UPON PRIOR NOTIFICATION.                   
+                    </p>
+                    <p><i class="ion-ios-nutrition-outline icon-small"></i>PARTICIPATING TEAMS SHOULD NOT REVEAL THEIR COLLEGE IDENTITY DURING THE EVENTS.                  
+                    </p>
+                  </div>
+                </div>
+            </div>   
+        </section>
+
+        <section class="section-cities" id="events">
+            <div class="row">
+                <h2>EVENT INFORMATIONS</h2>
+            </div>
+      <!--hiiii-->
+            <div class="row js--wp-3" style="text-align: justify;">
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/quiz.png" alt="Lisbon">
+                   <center><h3>CICADA <span style="font-size:16px;">3301</span></h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">QUESTIONS ARE EVERYWHERE.... ANSWERS SCATTERED AROUND... ROAD TO THEM IS TRICKY OUT THERE... PREPARE YOURSELF... GET YOUR WITS TO WORK AND BREAK OUT EVERY NOOK AND CORNER OF YOUR BRAIN.</p>                 
+                    <br>
+                    <br>
+                    <br>                      
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant 2.<br>
+                    <i class="ion-ios-star icon-small"></i>Quizmaster's Decision is Final.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant is not supposed to reveal his/her code after registration.<br>
+                    <br><br><br><br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>NISHAN NARAYAN POOJARI<BR>    <SPAN style="margin-left: 40px;">CONTACT:8451824740</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>Ms.JEEVITHA JAIN<BR>  <SPAN style="margin-left: 40px;">CONTACT:8147123647</SPAN>
+                    </div>                    
+                </div>
+
+                <div class="col span-1-of-3 box" >
+                    <img src="resources/logo/gaming.png" alt="Lisbon">
+                   <center><h3>BLACK LIST</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">JUST LIKE LIFE EVERY GAME HAS TO BE PLAYED IN ITS OWN WAY TO BECOME THE ULTIMATE CHAMPIONS... SO SMASH OUT THE BUTTONS.. CONTROL THE CONSOLE AND CONQUER THE WORLD.</p>                 
+                    <br>
+                    <br>
+                    <br><br>
+                                              
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant 1.<br>
+                    <i class="ion-ios-star icon-small"></i>Organizer's decision will be final. <br>
+                    <i class="ion-ios-star icon-small"></i>Participant can bring their headphones and mouse for better experience.<br>
+                    <br><br><br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>GODFREY LOYAL MENEZES<BR>    <SPAN style="margin-left: 40px;">CONTACT:7892739258</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>RAJBHUSHAN R.<BR>  <SPAN style="margin-left: 40px;">CONTACT:7022504388</SPAN>
+                    </div>                     
+                </div>   
+
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/it_man.png" alt="Lisbon">
+                   <center><h3>TECHROADIES</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">DO WHAT YOU CAN, WRITE WHAT YOU HAVE, WHERE YOU ARE! WE GIVE YOU THE CHOICE! YOUR SKILL DEFINES YOUR OPINION! TAKE THE ULTIMATE SUSTAINABILITY TEST, BREAK THE BARRIER WITH THE POWER OF PERSON WHO YOU ARE! UNVEIL THE BEST IT MANAGER IN YOU.</p>          
+                    <br>                            
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant 1.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant cannot Participate in any other Events.<br>
+                    <i class="ion-ios-star icon-small"></i>Round Information will be disclosed During the Event.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant is requested to bring laptop with stable internet connection and pendrive.<br>
+                    <br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>STENITA AIMAN<BR>    <SPAN style="margin-left: 40px;">CONTACT:8589867994</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>KARISHMA C RAO<BR>  <SPAN style="margin-left: 40px;">CONTACT:8073921885</SPAN>
+                    </div>                     
+                </div>
+            </div>
+
+            <!-- Second row-->
+            <div class="row js--wp-3">
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/flicktick.jpg" alt="Lisbon">
+                   <center><h3>FLICKTICK</span></h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">IT’S ALL ABOUT PERSPECTIVE AND BY PERSPECTIVE IT DOESN’T MEAN WHAT YOU SEE. IT’S ALL ABOUT WHAT YOU FEEL AND HOW YOU CONNECT WITH IT. </p>        
+                    <br>                          
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant  1.<br>
+                    <i class="ion-ios-star icon-small"></i>Theme Will be announced on spot.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant should get their Laptops, Digital Camera and Smart Phones.<br>
+                    <i class="ion-ios-star icon-small"></i>Laptop must be loaded with required softwares (Images and video editing).<br>
+                    <br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>PAWAN RAJ<BR><SPAN style="margin-left: 40px;">CONTACT:9449996345</SPAN>
+                    
+                    </div>                   
+                </div> 
+
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/weblogo.png" alt="Lisbon"><br><br>
+                   <center><h3>DESIGNIA</h3></center>
+                    <div class="city-feature">
+
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">THE CLASSIC DESIGN WITH A UNIQUE TWISTS, SERIES OF SCRIPTS... FRAME YOUR IDEAS INTO ACTION... ITS TIME TO EXPLORE DESIGNIA...  </p>                 
+                    <br>                           
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant: 1.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant must be familiar with HTML/HTML5, CSS, CSS3, JavaScript and  jQuery .<br>
+                    <i class="ion-ios-star icon-small"></i>Theme Will be announced on spot.
+                    <br>
+                    <i class="ion-ios-star icon-small"></i>Organizer’s  decision will be final.<br>
+                    <br><br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>GURURAJ SHETTY<BR>    <SPAN style="margin-left: 40px;">CONTACT:9916748097</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>GURUDEEP U.J.<BR>  <SPAN style="margin-left: 40px;">CONTACT:8762922258</SPAN>
+                    </div>                     
+                </div>
+
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/treasure_hunt.png" alt="Lisbon">
+                   <center><h3>CLUE-MINATI</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">BE READY TO UNLOCK THE MYSTERY AND HUNT OUT FOR YOUR FORTUNE ON THE QUEST OF ULTIMATE CHASSEUR.</p>              
+                    <br>                          
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant: 2.<br>
+                    <i class="ion-ios-star icon-small"></i>Particular set of rules will be there for each round.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant cannot participate in any other event.<br>
+                    <i class="ion-ios-star icon-small"></i>Organizer’s decision will be final.<br>
+                    <br><br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>KARISHMA S KUMBLE<BR>    <SPAN style="margin-left: 40px;">CONTACT:9964147320</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>RAKSHITH E SHETTY<BR>  <SPAN style="margin-left: 40px;">CONTACT:9916572757</SPAN>
+                    </div>                     
+                </div>
+            </div>
+            <!-- third row-->
+
+            <div class="row js--wp-3">
+
+                  <div class="col span-1-of-3 box"> <br>
+                    <img src="resources/logo/dbms.png" alt="Lisbon">
+                   <center><h3>COMMIT</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">BE CREATIVE, INSERT NOTION, UPDATE YOUR KNOWLEDGE, FIND SOLUTIONS, BUT NEVER FORGET TO COMMIT!!! </p>              
+                    <br>
+                    <br><br>                           
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant: 1.<br>
+                    <i class="ion-ios-star icon-small"></i>Must know PL/SQL and SQL.<br>
+                    <i class="ion-ios-star icon-small"></i>Must know to work with ORACLE.<br>
+                    <i class="ion-ios-star icon-small"></i>Organizer's decision will be final. <br>
+                    <i class="ion-ios-star icon-small"></i>Participant should get their Laptop with Internet connection.
+                    <br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>ANEESH MATHAI<BR>    <SPAN style="margin-left: 40px;">CONTACT:7353928330</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>REEMA SHARAL CASTELINO<BR>  <SPAN style="margin-left: 40px;">CONTACT:7760243095</SPAN>
+                    </div>                     
+                </div>
+
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/brand.png" alt="Lisbon">
+                    <br><br>
+                   <center><h3>BRAND BARRAGE</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">INFINITE IDEAS JUST THINK LIKE INFORMATION TECHNOLOGY... PRODUCTS ARE LIMITED YET WORDS ARE MANY... MIX THEM ALL... LAUNCH THE BEST, YOU KNOW WHAT’S THE REST.   </p>
+                    <br>                           
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant 2.<br>
+                    <i class="ion-ios-star icon-small"></i>Oragnizer's decision will be final.<br>
+                    <i class="ion-ios-star icon-small"></i>Participant should get their Laptop with Internet connection.<br>
+                    <br><br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>GLENNY ALIYA D'SOUZA<BR>    <SPAN style="margin-left: 40px;">CONTACT:8971865016</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>ANJANA JAYATHILAK<BR>  <SPAN style="margin-left: 40px;">CONTACT:9746309644</SPAN>
+                    </div>                     
+                </div> 
+
+                <div class="col span-1-of-3 box">
+                    <img src="resources/logo/coding.png" alt="Lisbon">
+                    <br><br>
+                   <center><h3>MINDSWEEPER</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">TICKLE THE ALPHABETS... MINGLE WITH NUMBERS AND DEBUG YOUR WAY TO THE ULTIMATE THRONE OF CODER.</p>                  
+                    <br>
+                    <br><br>                            
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Number of Participant 2.<br>
+                    <i class="ion-ios-star icon-small"></i>Organizer's decision will be final.<br>
+                    <i class="ion-ios-star icon-small"></i>Basic Knowledge in C/C++ Programming.
+                    <br>
+                    <i class="ion-ios-star icon-small"></i>Participant should get their Laptop.<br>
+                    <br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>ANIL KUMAR N.SHETTY<BR>    <SPAN style="margin-left: 40px;">CONTACT:8722926336</SPAN>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>FEDRICK ROYSTON SEQUEIRA<BR>  <SPAN style="margin-left: 40px;">CONTACT:8105282191</SPAN>
+                    </div>                     
+                </div>
+                <center>
+                  <div class="col span-2-of-2 box">
+                    <img src="resources/logo/dance1.png" alt="Lisbon" style="width: 350px;height: 300px;" >
+                   <center><h3>Show Time</h3></center>
+                    <div class="city-feature">
+                    <b>DESCRIPTION :</b><br><p style="font-size: 17px;text-align: justify;">LIGHTS...MUSIC...DANCE!<br>
+                    PUSH YOUR LIMITS, TEST YOUR POTENTIAL AND SHOW YOUR TECHNICAL SOUNDNESS WE INVITE YOU TO MELT YOUR BRAINS AND THINK HARD TO AIM FOR EXTREMLY MIND BENDING EVENTS... </p>                  
+                    <br>
+                    INTERESTED PARTICIPANTS CAN JOIN.<br>  <br>                           
+                    <b>Rules</b><br>
+                    <i class="ion-ios-star icon-small"></i>Teams can perform any forms of ART (Skit,Mime,Dance,Etc)<br>(Solo or Team Performances)<br>
+                    <i class="ion-ios-star icon-small"></i>Vulgarity will not be supported in your act.
+                    
+                    <br><br>
+                    <b>EVENT HEAD:</b>
+                    <br>
+                    <i class="ion-ios-person icon-small"></i>Ankitha <BR>    <SPAN style="margin-left: 40px;">CONTACT:7259610970</SPAN>
+                    <br>
+                   </div>                     
+                </div>
+                </center>
+            </div>
+            
+        </section>
+
+
+        <section class="section-plans js--section-plans" id="Shedule">
+            <div class="row">
+                <h2>Schedule</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <div class="plan-box js--wp-4">
+            
+                        <div align="center">
+            <center> <img class="img-responsive" src="resources/logo/shedule1.png" style="width: 100%;height: 100%;transform: scale(1.1,1.1);"></center>
+                         
+                        </div>                        
+                        
+                    </div>
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="plan-box js--wp-4">
+            
+                        <div align="center">
+            <center> <img class="img-responsive" src="resources/logo/shedule2.png" style="width: 100%;height: 100%;transform: scale(1.1,1.1);"></center>
+                         
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-plans js--section-plans" id="plans">
+            <div class="row">
+                <h2>SEMAPHORE TEAM</h2>
+            </div>
+            <!--upper part-->
+            <div class="row" style="padding-right: 6%;padding-left: 6%;">
+                <div class="col span-2-of-4">
+                    <div class="plan-box js--wp-4">
+					  
+                        <div align="center">
+						<center> <img class="img-circle" src="resources/logo/director.jpg" style="width: 150px;height: 150px;"></center>
+                          <center>  <h3>DR.K.M HEGDE</h3></center>
+                          
+                            <p class="plan-price-meal">Director, Dept of MCA</p>
+                        </div>                        
+                        <div>
+                            <a href="#plans" class="btn btn-ghost">Contact:9845563691</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col span-2-of-4">
+                    <div class="plan-box">
+                        <div align="center">
+						<center> <img class="img-circle" src="resources/logo/hod.png" style="width: 150px;height: 150px;"></center>
+                            <center>  <h3>DR.Surendra Shetty</h3></center>
+                            <p class="plan-price" ></p>
+                            <p class="plan-price-meal">Professor & Head, Dept of MCA</p>
+                        </div>                        
+                        <div>
+                            <a href="#plans" class="btn btn-ghost">Contact:9945547359</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--lower part-->
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+            
+                        <div align="center">
+            <center> <img class="img-circle" src="resources/logo/Mangala.png" style="width: 150px;height: 150px;"></center>
+                          <center>  <h3>MRs.MANGALA</h3></center>
+                          
+                            <p class="plan-price-meal">Semaphore Co-ordinator</p>
+                        </div>                        
+                        <div>
+                            <a href="#plans" class="btn btn-ghost">Contact:9880891217</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div align="center">
+            <center> <img class="img-circle" src="resources/logo/amey.jpg" style="width: 150px;height: 150px;"></center>
+                            <center>  <h3>MR.KAMATH AMEY UDAY</h3></center>
+                           
+                            <p class="plan-price-meal">Semaphore Secretary</p>
+                        </div>
+                        
+                        <div>
+                            <a href="#plans" class="btn btn-ghost">Contact:8660671208</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div align="center">
+            <center> <img class="img-circle" src="resources/logo/somanna.jpg" style="width: 150px;height: 150px;"></center>
+                            <center>  <h3>MR.K.M. SOMANNA</h3></center>
+                            <p class="plan-price" ></p>
+                            <p class="plan-price-meal">SAMCA President</p>
+                        </div>                        
+                        <div>
+                            <a href="#plans" class="btn btn-ghost">Contact:9686179204</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <script>
+        /*var a;
+        var ch;
+        var s=0;
+        var count=0;
+           function generate() {          
+              a = parseInt(document.getElementById("no").value);
+          a=a-s;   
+          s=s+a;
+              ch = document.getElementById("ch");
+
+              for (i = 0; i < a; i++) {
+            count++;
+            if(count<=12){
+              var input = document.createElement("input");
+              input.setAttribute('type',"text");
+              input.setAttribute('name',"hai[]");
+              input.setAttribute('id',"aa");
+              input.setAttribute('class',"chan");
+              ch.appendChild(input);
+            }
+            else
+            {
+              return;
+            }            
+              }
+          }*/
+
+          function noval()
+          {
+            var x=document.getElementById('no').value;
+            if(x>10)
+            {
+              document.getElementById('no').style.borderColor="red";
+              document.getElementById('no').style.borderWidth="3px";
+              document.getElementById('no').value="";
+              document.getElementById('no').placeholder = "Only 10 Members allowed...";
+            }
+            else
+            {
+              document.getElementById('no').style.borderColor="none";
+              document.getElementById('no').style.borderWidth="0px";
+            }
+          }
+
+          function cval()
+          {
+            var x=document.getElementById('Contact').value;
+            if(x>10000000000)
+            {
+              document.getElementById('Contact').style.borderColor="red";
+              document.getElementById('Contact').style.borderWidth="3px";
+              document.getElementById('Contact').value="";
+              document.getElementById('Contact').placeholder = "Only 10 Digits...";
+            }
+            else
+            {
+              document.getElementById('Contact').style.borderColor="none";
+              document.getElementById('Contact').style.borderWidth="0px";
+            }
+          }
+
+          function ckval()
+          {
+            var x=document.getElementById('boy').value;
+            var y=document.getElementById('girl').value;
+            var z=parseInt(x)+parseInt(y);
+            if(z>10)
+            {
+              document.getElementById('boy').style.borderColor="red";
+              document.getElementById('boy').style.borderWidth="3px";
+              document.getElementById('boy').value="";
+              document.getElementById('boy').placeholder = "Only 10 Members allowed...";
+              document.getElementById('girl').style.borderColor="red";
+              document.getElementById('girl').style.borderWidth="3px";
+              document.getElementById('girl').value="";
+              document.getElementById('girl').placeholder = "Only 10 Members allowed...";
+            }
+            else
+            {
+              document.getElementById('boy').style.borderColor="none";
+              document.getElementById('boy').style.borderWidth="0px";
+              document.getElementById('girl').style.borderColor="none";
+              document.getElementById('girl').style.borderWidth="0px";
+            }
+          }
+          </script>
+
+
+        <!-- Registration Form strats-->
+        <section class="section-form" id="Registration">
+            <div class="row">
+                <h2>Register Here...</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="registration.php" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">College Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="College" id="Collage" placeholder="College name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Number of Participants</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="no" onkeyup="noval();" id="no" placeholder="Number of Participants" onchange="generate();" required>
+                        </div>                     
+                        <div class="col span-2-of-3" id="ch" style="margin:0px 205px;">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Contact Number</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="Contact" id="Contact" onkeyup="cval();" placeholder="Contact Number" required>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Accomodation:</label>
+                        </div>                       
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-2-of-4">
+                            <label for="name">No of Boys..</label>
+                        </div>
+                        <div class="col span-2-of-4">
+                            <label for="name">No of Girls..</label>                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-2-of-4">
+                            <input type="text" name="boy" id="boy" placeholder="No of Boys.." required>
+                        </div>
+                        <div class="col span-2-of-4">
+                            <input type="text" name="girl" id="girl" onkeyup="ckval();" placeholder="No of Girls.." required>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" name="submit" value="Register..!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        <!-- Registration Form ends -->
+
+
+		<section class="section-form" id="mmap">  
+    <h2>Find Us in Google Map..</h2>  
+      <div class="row">
+        <div class="col span-1-of-2">         
+        <div id="map" style="height:73vh;margin: 0px;"></div>
+       
+
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 13.1831753, lng: 74.9343899};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0l04J44kSo9Gpyss18_n2mdVFREFAN8I&callback=initMap">
+    </script>
+  </div>
+  <div class="col span-1-of-2" style="padding: 10px 80px;">
+    <i class="fa fa-map-marker">NMAM Institute of Technology<br>
+Nitte 574110<br>
+Karkala Taluk, Karnataka<br>
+ <i class="ios-phone-portrait">Phone: +91 8258 281263 / 281264 / 281248<br>
+ <i class="fa fa-map-marker">Email: principal_nmamit@nitte.edu.in<br>
+  <i class="fa fa-map-marker">
+ Website: www.nmamit.nitte.edu.in
+ <br>
+ <br>
+ <br>
+ <b>Nitte Education Trust</b><br>
+Address   : <br>  
+6th Floor, University Enclave Medical Sciences Complex Deralakatte, Mangaluru 575018 Karnataka, India<br>
+Phone   :   91 824220 4310 / 220 4342 / 220 4304 | 78138 04310<br>
+Email   :   info@nitte.edu.in<br>
+Website   :   www.nitte.edu.in | www.nitte.ac.in
+
+  </div>
+</div>
+
+      </section>
+		<footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#plans">About us</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2018 by SEMAPHORE2K18. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+
+    </body>  
+    
+</html>
